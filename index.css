@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
 }
 
-#cat {
+#macandpiano {
   padding: 1rem 0 1rem 0;
 }
 
@@ -19,12 +19,12 @@ body {
   cursor: pointer;
 }
 
-#cat img {
+#macandpiano img {
   transition: 3s;
   filter: brightness(60%);
 }
 
-#cat img:hover {
+#macandpiano img:hover {
   cursor: wait;
   transition: 0.3s;
   filter: brightness(100%);
