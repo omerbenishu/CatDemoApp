@@ -20,6 +20,10 @@ body {
   cursor: pointer;
 }
 
+#extrastuff {
+  display: none;
+}
+
 #macandpiano img {
   transition: 3s;
   filter: brightness(60%);
@@ -31,4 +35,7 @@ body {
   cursor: wait;
   transition: 0.3s;
   filter: brightness(100%);
+}
+button{
+  margin: 4px;
 }
