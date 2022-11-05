@@ -25,7 +25,7 @@ function rolling(){
 
 function swifty(){
   var randomColor = getRandomColor()
-  document.getElementById("container").style.backgroundColor = randomColor;
+  document.getElementById("body").style.backgroundColor = randomColor;
   document.body.style.color = invertColor(randomColor);
 
 }
