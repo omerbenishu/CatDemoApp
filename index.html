@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 
-<body>
+<body id="body">
   <div id="container">
     <div id="main">
       <div class="intro">
@@ -18,19 +18,17 @@
       <div id="work">
         <h2>Work</h2>
         <p>
-          I work at a Kryon, which is now part of Nintex.
+          I work at Kryon, which is now part of Nintex.
         </p>
       </div>
       <div id="play">
         <h2>Play</h2>
         <p>
-          I play piano and harmonica, do you like to play too?.
+          I play piano and harmonica, do you like to play too?
         </p>
         <div id="yes">
           <button onclick="showExtraStuff()">Yes!</button>
-        </div>
-        <div id="no">
-          <button onclick="exit()">Not at all</button>
+          <button onclick="hideAll()">Not at all</button>
         </div>
         <div id="extrastuff">
           <p>
@@ -40,9 +38,29 @@
       </div>
       <div id="macandpiano" >
         <img src="macAndPiano.png" alt="Macbook and Piano" />
+        <figcaption>Fig.1 - A programmer who don't have time to play, created by Dall-E 2</figcaption>
       </div>
       <div id="contact">
         <button>Reach me!</button>
+      </div>
+      <div id="rickandmorty" >
+        <h2>It's a Rick and Morty section, Morty!</h2>
+        <p>This is the <strong>craziest</strong> section over here Morty</p>
+        <p><em>Are you ready?</em> Just click the images Morty</p>
+        <button id="rolling" alt="Rolling world" onclick="rolling()"><img src="rollingGif.gif"> </button>
+        <button id="swifty" alt="Swifty world" onclick="swifty()"><img src="swiftyGif.gif"> </button>
+      </div>
+      <div id="poem">
+        <h2>Poem</h2>
+        <p> Roses are <span style="color: #ff0000">#ff0000</span><br>
+          Violets are <span style="color: #0000ff">#0000ff</span><br>
+          Why my code is working<br>
+          I haven't a clue.<br>
+      </p>
+      </div>
+      <div id="bestgoals">
+        <h2>My favorite video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ehFKOiHk_Jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
