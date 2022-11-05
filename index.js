@@ -5,7 +5,15 @@ contactButton.addEventListener("click", function contactClickhandler(el) {
 });
 
 function showExtraStuff() {
-  document.getElementById('extrastuff').style.display = "block"
+  var btn = document.getElementById("yesButton");
+  if (btn.innerText=="Yes!") btn.innerText = "But maybe later?";
+  else btn.innerText = "Yes!";
+  if (document.getElementById('extrastuff').style.display != "block"){
+    document.getElementById('extrastuff').style.display = "block"
+  }
+else{
+  document.getElementById('extrastuff').style.display = ""
+}
 
 }
 
